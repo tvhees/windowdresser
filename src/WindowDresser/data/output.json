@@ -1,0 +1,75 @@
+{
+  "layered": {
+    "steam": [
+      [460, 215, "dist/steam/Steam - Header capsule image.png"],
+      [231, 87, "dist/steam/Steam - Small capsule image.png"],
+      [467, 181, "dist/steam/Steam - Large capsule image.png"],
+      [616, 353, "dist/steam/Steam - Main capsule image.png"]
+    ],
+    "android": [
+      [1024, 500, "dist/playstore/Android - Feature Image.png"],
+      [180, 120, "dist/playstore/Android - Promo Image.png"],
+      [1280, 720, "dist/playstore/Android - TV Banner.png"]
+    ],
+    "misc": [
+      [616, 353, "dist/Humble Store - Humble Capsule.png"],
+      [315, 250, "dist/Itchio - Itch Capsule.png"]
+    ]
+  },
+  "icon": {
+    "android": [
+      [72, 72, "app/icon/android/drawable-hdpi-icon.png"],
+      [36, 36, "app/icon/android/drawable-ldpi-icon.png"],
+      [48, 47, "app/icon/android/drawable-mdpi-icon.png"],
+      [96, 96, "app/icon/android/drawable-xhdpi-icon.png"],
+      [144, 144, "app/icon/android/drawable-xxhdpi-icon.png"],
+      [192, 192, "app/icon/android/drawable-xxxhdpi-icon.png"]
+    ],
+    "ios": [
+      [57, 57, "app/icon/ios/icon.png"],
+      [114, 114, "app/icon/ios/icon@2x.png"],
+      [40, 40, "app/icon/ios/icon-40.png"],
+      [80, 80, "app/icon/ios/icon-40@2x.png"],
+      [50, 50, "app/icon/ios/icon-50.png"],
+      [100, 100, "app/icon/ios/icon-50@2x.png"],
+      [60, 60, "app/icon/ios/icon-60.png"],
+      [120, 120, "app/icon/ios/icon-60@2x.png"],
+      [180, 180, "app/icon/ios/icon-60@3x.png"],
+      [72, 72, "app/icon/ios/icon-72.png"],
+      [144, 144, "app/icon/ios/icon-72@2x.png"],
+      [76, 76, "app/icon/ios/icon-76.png"],
+      [152, 152, "app/icon/ios/icon-76@2x.png"],
+      [29, 29, "app/icon/ios/icon-small.png"],
+      [58, 58, "app/icon/ios/icon-small@2x.png"],
+      [87, 87, "app/icon/ios/icon-small@3x.png"]
+    ]
+  },
+  "cover": {
+    "android": [
+      [800, 480, "app/screen/android/drawable-land-hdpi-screen.png"],
+      [329, 240, "app/screen/android/drawable-land-ldpi-screen.png"],
+      [480, 320, "app/screen/android/drawable-land-mdpi-screen.png"],
+      [1280, 720, "app/screen/android/drawable-land-xhdpi-screen.png"],
+      [1600, 960, "app/screen/android/drawable-land-xxhdpi-screen.png"],
+      [1290, 1280, "app/screen/android/drawable-land-xxxhdpi-screen.png"],
+      [480, 800, "app/screen/android/drawable-port-hdpi-screen.png"],
+      [240, 329, "app/screen/android/drawable-port-ldpi-screen.png"],
+      [320, 480, "app/screen/android/drawable-port-mdpi-screen.png"],
+      [720, 1280, "app/screen/android/drawable-port-xhdpi-screen.png"],
+      [960, 1600, "app/screen/android/drawable-port-xxhdpi-screen.png"],
+      [1280, 1290, "app/screen/android/drawable-port-xxxhdpi-screen.png"]
+    ],
+    "ios": [
+      [640, 960, "app/screen/ios/Default@2x~iphone.png"],
+      [320, 480, "app/screen/ios/Default~iphone.png"],
+      [640, 1136, "app/screen/ios/Default-568h@2x~iphone.png"],
+      [750, 1134, "app/screen/ios/Default-667h.png"],
+      [1242, 2208, "app/screen/ios/Default-736h.png"],
+      [2048, 1536, "app/screen/ios/Default-Landscape@2x~ipad.png"],
+      [1024, 768, "app/screen/ios/Default-Landscape~ipad.png"],
+      [2208, 1242, "app/screen/ios/Default-Landscape-736h.png"],
+      [1536, 2048, "app/screen/ios/Default-Portrait@2x~ipad.png"],
+      [768, 1024, "app/screen/ios/Default-Portrait~ipad.png"]
+    ]
+  }
+}

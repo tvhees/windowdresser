@@ -1,0 +1,23 @@
+{
+  "layers": [
+    {"file": "bg.png", "align":"bg", "offsetX":0, "offsetY":0},
+    {"file": "tl.png", "align":"tl", "offsetX":0, "offsetY":0},
+    {"file": "tr.png", "align":"tr", "offsetX":0, "offsetY":0},
+    {"file": "bl.png", "align":"bl", "offsetX":0, "offsetY":0},
+    {"file": "br.png", "align":"br", "offsetX":0, "offsetY":0},
+    {"file": "t.png", "align":"t", "offsetX":0, "offsetY":0, "scaleX": 0.6, "scaleY": 0.6},
+    {"file": "l.png", "align":"l", "offsetX":0, "offsetY":0, "scaleX": 0.6, "scaleY": 0.6},
+    {"file": "r.png", "align":"r", "offsetX":0, "offsetY":0, "scaleX": 0.6, "scaleY": 0.6},
+    {"file": "b.png", "align":"b", "offsetX":0, "offsetY":0, "scaleX": 0.6, "scaleY": 0.6},
+    {"file": "c.png", "align":"c", "offsetX":10, "offsetY":0, "scaleX": 0.9, "scaleY": 0.9}
+  ],
+  "icon": {"file": "icon.png"},
+  "cover": {"file": "cover.png"},
+  "screens": [
+    {"file": "screen1.png"},
+    {"file": "screen2.png"},
+    {"file": "screen3.png"},
+    {"file": "screen4.png"},
+    {"file": "screen5.png"}
+  ]
+}

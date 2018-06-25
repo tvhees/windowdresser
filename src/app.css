@@ -1,0 +1,40 @@
+#App {
+  padding: 20px;
+}
+
+.input-platform {
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  text-transform: uppercase;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.preview-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-wrapper,
+.cover-wrapper {
+  padding: 10px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.image-icon,
+.image-cover {
+  width: 100px;
+  height: 100px;
+}
+
+.button-generate {
+  height: 50px;
+  width: 100px;
+}
