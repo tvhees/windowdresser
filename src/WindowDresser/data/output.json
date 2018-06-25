@@ -1,19 +1,19 @@
 {
   "layered": {
     "steam": [
-      [460, 215, "dist/steam/Steam - Header capsule image.png"],
-      [231, 87, "dist/steam/Steam - Small capsule image.png"],
-      [467, 181, "dist/steam/Steam - Large capsule image.png"],
-      [616, 353, "dist/steam/Steam - Main capsule image.png"]
+      [460, 215, "steam/Steam - Header capsule image.png"],
+      [231, 87, "steam/Steam - Small capsule image.png"],
+      [467, 181, "steam/Steam - Large capsule image.png"],
+      [616, 353, "steam/Steam - Main capsule image.png"]
     ],
     "android": [
-      [1024, 500, "dist/playstore/Android - Feature Image.png"],
-      [180, 120, "dist/playstore/Android - Promo Image.png"],
-      [1280, 720, "dist/playstore/Android - TV Banner.png"]
+      [1024, 500, "playstore/Android - Feature Image.png"],
+      [180, 120, "playstore/Android - Promo Image.png"],
+      [1280, 720, "playstore/Android - TV Banner.png"]
     ],
     "misc": [
-      [616, 353, "dist/Humble Store - Humble Capsule.png"],
-      [315, 250, "dist/Itchio - Itch Capsule.png"]
+      [616, 353, "Humble Store - Humble Capsule.png"],
+      [315, 250, "Itchio - Itch Capsule.png"]
     ]
   },
   "icon": {
@@ -23,7 +23,8 @@
       [48, 47, "app/icon/android/drawable-mdpi-icon.png"],
       [96, 96, "app/icon/android/drawable-xhdpi-icon.png"],
       [144, 144, "app/icon/android/drawable-xxhdpi-icon.png"],
-      [192, 192, "app/icon/android/drawable-xxxhdpi-icon.png"]
+      [192, 192, "app/icon/android/drawable-xxxhdpi-icon.png"],
+      [512, 512, "playstore/Android - High-Res Icon.png"]
     ],
     "ios": [
       [57, 57, "app/icon/ios/icon.png"],
@@ -70,6 +71,44 @@
       [2208, 1242, "app/screen/ios/Default-Landscape-736h.png"],
       [1536, 2048, "app/screen/ios/Default-Portrait@2x~ipad.png"],
       [768, 1024, "app/screen/ios/Default-Portrait~ipad.png"]
+    ]
+  },
+  "screens": {
+    "steam": [
+      [1920, 1080, "steam/Steam Screenshot 1.png"],
+      [1920, 1080, "steam/Steam Screenshot 2.png"],
+      [1920, 1080, "steam/Steam Screenshot 3.png"],
+      [1920, 1080, "steam/Steam Screenshot 4.png"],
+      [1920, 1080, "steam/Steam Screenshot 5.png"]
+    ],
+    "android": [
+      [1920, 1080, "playstore/Android Screenshot 1.png"],
+      [1920, 1080, "playstore/Android Screenshot 2.png"],
+      [1920, 1080, "playstore/Android Screenshot 3.png"],
+      [1920, 1080, "playstore/Android Screenshot 4.png"],
+      [1920, 1080, "playstore/Android Screenshot 5.png"]
+    ],
+    "ios": [
+      [2208, 1242, "appstore/App Store Screenshot 1 - Iphone 5.5 inch.png"],
+      [2208, 1242, "appstore/App Store Screenshot 2 - Iphone 5.5 inch.png"],
+      [2208, 1242, "appstore/App Store Screenshot 3 - Iphone 5.5 inch.png"],
+      [2208, 1242, "appstore/App Store Screenshot 4 - Iphone 5.5 inch.png"],
+      [2208, 1242, "appstore/App Store Screenshot 5 - Iphone 5.5 inch.png"],
+      [960, 640, "appstore/App Store Screenshot 1 - Iphone 3.5 inch.png"],
+      [960, 640, "appstore/App Store Screenshot 2 - Iphone 3.5 inch.png"],
+      [960, 640, "appstore/App Store Screenshot 3 - Iphone 3.5 inch.png"],
+      [960, 640, "appstore/App Store Screenshot 4 - Iphone 3.5 inch.png"],
+      [960, 640, "appstore/App Store Screenshot 5 - Iphone 3.5 inch.png"],
+      [2732, 2048, "appstore/App Store Screenshot 1 - Ipad 12.9 inch.png"],
+      [2732, 2048, "appstore/App Store Screenshot 2 - Ipad 12.9 inch.png"],
+      [2732, 2048, "appstore/App Store Screenshot 3 - Ipad 12.9 inch.png"],
+      [2732, 2048, "appstore/App Store Screenshot 4 - Ipad 12.9 inch.png"],
+      [2732, 2048, "appstore/App Store Screenshot 5 - Ipad 12.9 inch.png"],
+      [1024, 768, "appstore/App Store Screenshot 1 - Ipad 9.7 inch.png"],
+      [1024, 768, "appstore/App Store Screenshot 2 - Ipad 9.7 inch.png"],
+      [1024, 768, "appstore/App Store Screenshot 3 - Ipad 9.7 inch.png"],
+      [1024, 768, "appstore/App Store Screenshot 4 - Ipad 9.7 inch.png"],
+      [1024, 768, "appstore/App Store Screenshot 5 - Ipad 9.7 inch.png"]
     ]
   }
 }
