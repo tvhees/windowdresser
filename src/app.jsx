@@ -27,11 +27,12 @@ export default class App extends React.Component {
       platforms: {
         android: true,
         ios: true,
-        // steam: true,
+        steam: true,
       },
       types: {
         icon: true,
         cover: true,
+        screens: true,
       },
     };
 
@@ -57,7 +58,9 @@ export default class App extends React.Component {
           (<div className={`${type}-wrapper`} key={`${type}`}>
             <h2>{type}</h2>
             <div className={`${type}-buttons`}>
-              <ImagePreview type={type} src={Dresser.sourcePath(type)} />
+              {Dresser.sourcePaths(type).map(path =>
+                <ImagePreview type={type} src={path} key={path} />,
+              )}
             </div>
           </div>),
         )}

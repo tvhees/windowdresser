@@ -11,8 +11,8 @@
     {"file": "b.png", "align":"b", "offsetX":0, "offsetY":0, "scaleX": 0.6, "scaleY": 0.6},
     {"file": "c.png", "align":"c", "offsetX":10, "offsetY":0, "scaleX": 0.9, "scaleY": 0.9}
   ],
-  "icon": {"file": "icon.png"},
-  "cover": {"file": "cover.png"},
+  "icon": [{"file": "icon.png"}],
+  "cover": [{"file": "cover.png"}],
   "screens": [
     {"file": "screen1.png"},
     {"file": "screen2.png"},

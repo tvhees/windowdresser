@@ -75,40 +75,16 @@
   },
   "screens": {
     "steam": [
-      [1920, 1080, "steam/Steam Screenshot 1.png"],
-      [1920, 1080, "steam/Steam Screenshot 2.png"],
-      [1920, 1080, "steam/Steam Screenshot 3.png"],
-      [1920, 1080, "steam/Steam Screenshot 4.png"],
-      [1920, 1080, "steam/Steam Screenshot 5.png"]
+      [1920, 1080, "steam/Steam Screenshot X.png"]
     ],
     "android": [
-      [1920, 1080, "playstore/Android Screenshot 1.png"],
-      [1920, 1080, "playstore/Android Screenshot 2.png"],
-      [1920, 1080, "playstore/Android Screenshot 3.png"],
-      [1920, 1080, "playstore/Android Screenshot 4.png"],
-      [1920, 1080, "playstore/Android Screenshot 5.png"]
+      [1920, 1080, "playstore/Android Screenshot X.png"]
     ],
     "ios": [
-      [2208, 1242, "appstore/App Store Screenshot 1 - Iphone 5.5 inch.png"],
-      [2208, 1242, "appstore/App Store Screenshot 2 - Iphone 5.5 inch.png"],
-      [2208, 1242, "appstore/App Store Screenshot 3 - Iphone 5.5 inch.png"],
-      [2208, 1242, "appstore/App Store Screenshot 4 - Iphone 5.5 inch.png"],
-      [2208, 1242, "appstore/App Store Screenshot 5 - Iphone 5.5 inch.png"],
-      [960, 640, "appstore/App Store Screenshot 1 - Iphone 3.5 inch.png"],
-      [960, 640, "appstore/App Store Screenshot 2 - Iphone 3.5 inch.png"],
-      [960, 640, "appstore/App Store Screenshot 3 - Iphone 3.5 inch.png"],
-      [960, 640, "appstore/App Store Screenshot 4 - Iphone 3.5 inch.png"],
-      [960, 640, "appstore/App Store Screenshot 5 - Iphone 3.5 inch.png"],
-      [2732, 2048, "appstore/App Store Screenshot 1 - Ipad 12.9 inch.png"],
-      [2732, 2048, "appstore/App Store Screenshot 2 - Ipad 12.9 inch.png"],
-      [2732, 2048, "appstore/App Store Screenshot 3 - Ipad 12.9 inch.png"],
-      [2732, 2048, "appstore/App Store Screenshot 4 - Ipad 12.9 inch.png"],
-      [2732, 2048, "appstore/App Store Screenshot 5 - Ipad 12.9 inch.png"],
-      [1024, 768, "appstore/App Store Screenshot 1 - Ipad 9.7 inch.png"],
-      [1024, 768, "appstore/App Store Screenshot 2 - Ipad 9.7 inch.png"],
-      [1024, 768, "appstore/App Store Screenshot 3 - Ipad 9.7 inch.png"],
-      [1024, 768, "appstore/App Store Screenshot 4 - Ipad 9.7 inch.png"],
-      [1024, 768, "appstore/App Store Screenshot 5 - Ipad 9.7 inch.png"]
+      [2208, 1242, "appstore/App Store Screenshot X - Iphone 5.5 inch.png"],
+      [960, 640, "appstore/App Store Screenshot X - Iphone 3.5 inch.png"],
+      [2732, 2048, "appstore/App Store Screenshot X - Ipad 12.9 inch.png"],
+      [1024, 768, "appstore/App Store Screenshot X - Ipad 9.7 inch.png"]
     ]
   }
 }

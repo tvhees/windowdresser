@@ -7,10 +7,10 @@ const localPath = (...files) => path.resolve(__dirname, ...files);
 const loadData = file => JSON.parse(fs.readFileSync(localPath(`data/${file}.json`), 'utf8'));
 
 const config = loadData('config');
-const source = loadData('source');
-const output = loadData('output');
+const sourceData = loadData('source');
+const outputData = loadData('output');
 
-exports.sourcePath = type => localPath(config.src, source[type].file);
+exports.sourcePaths = type => sourceData[type].map(source => localPath(config.src, source.file));
 
 const isLandscape = image => image.bitmap.width >= image.bitmap.height;
 
@@ -27,14 +27,15 @@ const renderFunction = {
     image.clone().cover(width, height).write(localPath(config.dest, name)),
   icon: image => (width, height, name) =>
     image.clone().resize(width, height).write(localPath(config.dest, name)),
-  screens: image => (width, height, name) =>
-    image.clone().cover(...dimensions(width, height, image)).write(localPath(config.dest, name)),
+  screens: image => (width, height, name, index) =>
+    image.clone().cover(...dimensions(width, height, image)).write(localPath(config.dest, name.replace(/X/, index + 1))),
 };
 
-const writeFromImage = (type, platforms) => image =>
+const writeFromImage = (type, platforms, index) => image =>
   platforms.forEach(platform =>
-    output[type][platform].forEach(data =>
-      renderFunction[type](image)(...data)));
+    outputData[type][platform].forEach(data =>
+      renderFunction[type](image)(...data, index)));
 
-exports.write = ([type, platforms]) => Jimp.read(exports.sourcePath(type))
-  .then(writeFromImage(type, platforms));
+exports.write = ([type, platforms]) =>
+  exports.sourcePaths(type).forEach((source, index) =>
+    Jimp.read(source).then(writeFromImage(type, platforms, index)));

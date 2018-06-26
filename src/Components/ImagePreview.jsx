@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export default function ImagePreview(props) {
   return (
     <div>
-      <img className={`image-${props.type}`} src={props.src} alt={props.src} />
+      <img className={`dresser-image dresser-image-${props.type}`} src={props.src} alt={props.src} />
       {/* <input type="file" style={{ display: 'none' }} /> */}
     </div>
   );
